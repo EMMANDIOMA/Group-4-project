@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 function Onboarding() {
   return (
     <>
-      <main className="h-[800px] w-[screen] bg-[url('src/images/Background.svg')] sm:h-[100vh] lg:h-[50vh] md:h-[100vh]   bg-cover bg-center bg-no-repeat">
+      <main className="h-[800px] w-[screen] bg-[url('src/images/Background.svg')] sm:h-[100vh]  lg:h-[130vh] md:h-[100vh] xl:h-[170vh]   bg-cover bg-center bg-no-repeat">
         <div className="py-4 px-4">
           <img src={Koinstack} alt="" width="50%" />
         </div>
@@ -22,7 +22,7 @@ function Onboarding() {
           </div>
         </section>
 
-        <div className="text-white flex justify-end pt-[180px]">
+        <div className="text-white fixed bottom-0 right-0">
           <NavLink to="/Carousel" className="flex items-center space-x-[-16px]">
             <MdOutlineKeyboardArrowRight size={40} color="white" />
             <MdOutlineKeyboardArrowRight size={40} color="E6DAD4" />

@@ -20,7 +20,7 @@ function Carousel() {
   return (
     <>
       <main
-        className="bg-[#FAF7F2] flex justify-center flex-col items-center h-[800px] w-[screen] "
+        className="bg-[#FAF7F2] flex justify-center flex-col  items-center h-[800px] sm:h-[1100px] w-[screen] "
         onClick={handleInteraction}
       >
         <div className="bg-white  h-[400px] w-[250px]">

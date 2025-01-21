@@ -11,22 +11,22 @@ function Signup() {
   const togglepasswordVisibility = () => {
     setshowpassword((prev) => !prev);
   };
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (!password || !confirmPassword) {
-      setErrorMessage("Both password fields are required.");
-    } else if (password !== confirmPassword) {
-      setErrorMessage("Passwords do not match.");
-    } else {
-      setErrorMessage("");
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   if (!password || !confirmPassword) {
+  //     setErrorMessage("Both password fields are required.");
+  //   } else if (password !== confirmPassword) {
+  //     setErrorMessage("Passwords do not match.");
+  //   } else {
+  //     setErrorMessage("");
 
-      console.log("Form submitted successfully!");
-    }
-  };
+  //     console.log("Form submitted successfully!");
+  //   }
+  // };
 
   return (
     <>
-      <main className="h-[900px] w-[screen] px-4 bg-[url('src/images/Signup.svg')] sm:h-[100vh] lg:h-[50vh] md:h-[100vh]  bg-cover bg-center bg-no-repeat">
+      <main className=" w-[screen] sm:h-[1200px] md:h-[1500px]  px-4 bg-[url('src/images/Signup.svg')]    bg-cover bg-center bg-no-repeat">
         <div className="  py-5   px-5 ">
           <div className="bg-white h-[35px]  rounded-full w-[35px]">
             <NavLink
@@ -41,9 +41,9 @@ function Signup() {
           <p className="text-2xl font-bold ">Create Account </p>
           <p className="pb-6">Lets get started</p>
 
-          <div className=" w-[95%] h-fit   rounded-3xl  bg-gradient-to-r from-[rgba(0,0,0,0.3)] via-[rgba(0,0,0,0.3)] to-[rgba(0,0,0,0.6)]">
+          <div className=" w-[95%] md:w-[45%] sm:w-[45%] h-fit  rounded-3xl  bg-gradient-to-r from-[rgba(0,0,0,0.3)] via-[rgba(0,0,0,0.3)] to-[rgba(0,0,0,0.6)]">
             <form action="">
-              <div className="flex px-4 py-3 flex-col">
+              <div className="flex  px-4 py-3 flex-col">
                 <div className="flex flex-col gap-2">
                   <label className="text-white" htmlFor="Name">
                     First Name

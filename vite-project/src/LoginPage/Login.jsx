@@ -9,7 +9,7 @@ function Login() {
   };
   return (
     <>
-      <main className="h-[800px] w-[screen] bg-[url('src/images/login.svg')] sm:h-[100vh] lg:h-[50vh] md:h-[100vh]   bg-cover bg-center bg-no-repeat">
+      <main className=" w-[screen] bg-[url('src/images/login.svg')]  sm:h-[1150px] sm:bg-center md:bg-center md:bg-cover md:bg-no-repeat sm:bg-cover sm:bg-no-repeat     bg-cover bg-center bg-no-repeat">
         <div className="  py-5   px-5 ">
           <div className="bg-white h-[35px]  rounded-full w-[35px]">
             <NavLink
@@ -25,7 +25,7 @@ function Login() {
           <p className="text-white text-2xl font-bold font-inter">
             Welcome Back
           </p>
-          <div className=" w-[90%] h-fit px-4 rounded-3xl  bg-gradient-to-r from-[rgba(0,0,0,0.3)] via-[rgba(0,0,0,0.3)] to-[rgba(0,0,0,0.6)]">
+          <div className=" w-[90%] md:w-[60%] h-fit px-4 rounded-3xl  bg-gradient-to-r from-[rgba(0,0,0,0.3)] via-[rgba(0,0,0,0.3)] to-[rgba(0,0,0,0.6)]">
             <form action="">
               <div className="flex py-3 flex-col">
                 <div className="flex flex-col gap-2">
