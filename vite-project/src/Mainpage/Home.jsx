@@ -58,12 +58,12 @@ function Home() {
               </div>
             </div>
             <div className="pt-6  flex gap-5 px-2">
-              <div className="h-[60px] rounded-xl   py-2 flex flex-col items-center  bg-[#FAF7F5] w-[60%]">
+              <NavLink to={"/Airtime"} className="h-[60px] rounded-xl   py-2 flex flex-col items-center  bg-[#FAF7F5] w-[60%]">
                 <p className="text-[#80040B]">
                   <FaPhone />
                 </p>
                 <p className="text-[#80040B]">Airtime</p>
-              </div>
+              </NavLink>
               <div className="h-[60px] rounded-xl   py-2 flex flex-col items-center  bg-[#FAF7F5] w-[60%]">
                 <p className="text-[#80040B]">
                   <FaWifi />
